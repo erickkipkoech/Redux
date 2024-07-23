@@ -32,7 +32,7 @@ const initialState = {
                     ]
                 }
             }
-        case 'todos/todoToggeled':{
+        case 'todos/todoToggled':{
             return{
                 ...state,
                 todos:state.todos.map(todo=>{
